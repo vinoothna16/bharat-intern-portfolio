@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+
+* {
+  background: linear-gradient(rgb(209, 232, 240),rgb(209, 230, 237));
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#homepage {
+    background: linear-gradient(rgb(0, 128, 58),rgb(0, 128, 58));
+    position: relative;
+    padding-top: 30px;
+}
+.logo {
+
+    padding: 0 50px;
+    font-size: 40px;
+    color: #056145;
+    cursor: pointer;
+    line-height: 70px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    
+}
+span {
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #000b10;
+    border-radius: 2px;
+
+}
+
+nav {
+    background: transparent;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    gap: 300px;
+   
+}
+
+nav ul {
+   
+    margin-right: 30px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 20px;
+    position: relative;
+    left: 10%;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    padding-right: 7px;
+    font-family: 'Poppins', sans-serif;
+}
+li a:hover {
+    background-color: none;
+    border: 3px solid #15bda1;
+    padding: 6px 14px;
+    color: black;
+    margin: 0;
+    border-radius: 4px;
+    font-weight: 600;
+}
+a.active {
+    background-color: none;
+    border: 3px solid #15bda1;
+    padding: 6px 14px;
+    color: black;
+    margin: 0;
+    border-radius: 4px;
+    font-weight: 600;
+}
+section {
+    padding: 0 15%;
+}
+.intro {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.profile {
+    padding: 3px 10px;
+}
+.myself {
+    padding: 10px 20px;
+    align-items: center;
+    padding-right: 40px;
+}
+h3 {
+    font-size: 30px;
+    line-height: 30px;
+}
+h1 {
+    font-size: 60px;
+    line-height: 40px;
+    color: #15bda1;
+}
+h6 {
+    font-size: 14px;
+    line-height: 30px;
+    border-bottom:2px solid #000b10;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+h6 img {
+    margin-bottom: -5px;
+}
+.hire {
+    background-color: #15bda1;
+    padding: 8px 14px;
+    border-radius: 10px;
+    color:black;
+    font-weight: 500;
+    border: none;
+    margin-right: 15px;
+    cursor: pointer;
+    line-height: 30px;
+}
+.resume {
+    background-color: #15bda1;
+    padding: 8px 14px;
+    border-radius: 10px;
+    color:black;
+    font-weight: 500;
+    border: none;
+    margin-right: 15px;
+    cursor: pointer;
+    line-height: 30px;
+}
+.hire:hover {
+    border: 2px solid #15bda1;
+    padding: 8px 14px;
+    border-radius: 10px;
+    color: #054461;
+    margin-right: 15px;
+    background-color: transparent;
+    line-height: 30px;
+    font-weight: 800;
+}
+.resume:hover {
+    border: 2px solid #15bda1;
+    padding: 8px 14px;
+    border-radius: 10px;
+    color: #054461;
+    margin-right: 15px;
+    background-color: transparent;
+    line-height: 30px;
+    font-weight: 800;
+}
+#about {
+    margin: 70px;
+    padding: 10px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+#about p {
+    padding: 8px 14px;
+    margin: 20px 50px;
+    justify-content: baseline;
+}
+#about h2 {
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid #000b10;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 4px 15px;
+    position: relative;
+    left: 44%;
+}
+#education h2 {
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid #000b10;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 4px 15px;
+    position: relative;
+    left: 44%;
+}
+#education {
+    margin: 60px;
+    padding: 10px;
+}
+.edu {
+    display: flex;
+    margin: 60px;
+    position: relative;
+    gap: 110px;
+}
+.edu h4 {
+    position: relative;
+    text-align: center;
+    padding: 8px 14px;
+    line-height: 40px;
+    font-size: 18px;
+}
+.edu p {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 16px 16px;
+    position: relative;
+}
+.edu p:hover {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 16px 16px;
+    position: relative;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+#project h2 {
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid #000b10;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 4px 15px;
+    position: relative;
+    left: 45%;
+}
+#project {
+    margin: 60px;
+    padding: 10px;
+}
+.pro {
+    display: flex;
+    margin: 60px;
+    position: relative;
+    gap: 80px;
+    margin-right: 90px;
+   
+}
+.pro p {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 16px 16px;
+    position: relative;
+    right: 15%;
+}
+.pro p:hover {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 16px 16px;
+    position: relative;
+    right: 15%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.pro div {
+    position: relative;
+    text-align: center;
+    padding: 8px 14px;
+    line-height: 40px;
+    font-size: 18px;
+    max-width: 45%;
+}
+.pro a {
+    font-size: 17px;
+}
+.pro a:hover {
+    font-weight: 600;
+}
+#skills h2 {
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid #000b10;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 4px 15px;
+    position: relative;
+    left: 45%;
+}
+.using {
+    display: flex;
+    margin: 60px;
+    position: relative;
+    gap: 90px;
+    margin-right: 90px;
+    align-items: center;
+
+}
+.using h4 {
+    position: relative;
+    text-align: center;
+    padding: 8px 14px;
+    line-height: 40px;
+    font-size: 18px;
+}
+.using span {
+    display: inline-block;
+}
+figure {
+    padding: 0 35px;
+}
+.fig1 {
+    position: relative;
+    left: 10%;
+}
+figcaption {
+    text-align: center;
+    font-size: 18px;
+}
+#contact h2 {
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid #000b10;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 4px 15px;
+    position: relative;
+    left: 45%;
+}
+#contact h4 {
+    text-align: center;
+}
+.form {
+    margin: 50px;
+    position: relative;
+    left: 34%;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 5px 20px;
+    display: inline-block;
+}
+#name, #mobile, #mail, #message {
+    padding: 4px 25px;
+    border-radius: 8px;
+    line-height: 25px;
+    margin: 5px;
+}
+#button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1d1c1c;
+    color: black;
+    text-align: center;
+    position: relative;
+    left: 35%;
+}
+#button:hover {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: navy;
+    text-align: center;
+    position: relative;
+    left: 35%;
+}
+footer {
+    margin: 40px;
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+    border-top:1px solid #000b10;
+}
+.icon {
+    margin: 30px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.icon a {
+    padding-right: 40px;
+}
+.top {
+    position: fixed;
+    right: 14px;
+    bottom: 20px;
+}
+.top figcaption {
+    opacity: 45%;
+}
+.top figure {
+    opacity: 45%;
+}
+.top figure:hover {
+    opacity: 85%;
+}
+.top figcaption:hover {
+    opacity: 85%;
+}
+.top figcaption {
+    font-size: 12px;
+    color: #000b10;
+    text-decoration: none;
+}
